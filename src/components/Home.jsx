@@ -77,7 +77,7 @@ function Home() {
             <Typography variant='h5'color='#ffffff'>
                 Bienvenidos a nuestro sitio web.
             </Typography>
-            <Typography variant='h5'color='#ffffff'>
+            <Typography variant='h7'color='#ffffff'>
                 En estos momentos estamos en mantenimiento, asi que por ahora no podemos mostrarles mucho más. Gracias!
             </Typography>
         </Container>
