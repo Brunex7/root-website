@@ -12,15 +12,15 @@ function Home() {
         marginLeft: '20px', 
         marginRight: '20px',
         background:'#ffffff',
-        borderRadius:'30px',
-        padding:'20px',
+        borderRadius:'20px',
+        padding:'10px',
         top:'-20px',
         transition: 'margin-left 0.6s ease, margin-right 0.6s ease, top 1s ease-in-out'
     };
 
     const styleImage = {
         width:'100%',
-        borderRadius:'30px',
+        borderRadius:'20px',
         objectFit: 'cover',
         background: `linear-gradient(to top, rgba(0, 0, 0, 60), rgba(0, 0, 0, 0)) 0 0/100% 100%, url(${imgRoot}) center center/cover`,
     }
@@ -79,7 +79,7 @@ function Home() {
             </Typography>
             <Typography variant='h7'color='#ffffff'>
                 En estos momentos estamos en mantenimiento, asi que por ahora no podemos mostrarles mucho más. Gracias!
-            </Typography>
+            </Typography>               
         </Container>
     </Box>
   )
